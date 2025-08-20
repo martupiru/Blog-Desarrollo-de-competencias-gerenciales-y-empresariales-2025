@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+.presentacion, .entradas {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.foto-perfil {
+  display: block;
+  margin: 0 auto 15px auto; /* centrada y con espacio abajo */
+  width: 150px;             /* tamaño de la foto */
+  height: 150px;
+  object-fit: cover;        /* recorta bien si no es cuadrada */
+  border-radius: 50%;       /* redonda */
+  border: 3px solid #4CAF50; /* borde verde para combinar */
+}
+
+.entrada {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.entrada:last-child {
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 20px;
+}
